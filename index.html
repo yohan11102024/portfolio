@@ -129,12 +129,29 @@
         <div class="container">
             <h2>Let's Connect</h2>
             <p class="contact-subtitle">Have a project in mind? Let's talk!</p>
-            <form class="contact-form" id="contactForm">
-                <input type="text" placeholder="Your Name" required>
-                <input type="email" placeholder="Your Email" required>
-                <textarea placeholder="Your Message" rows="5" required></textarea>
-                <button type="submit" class="btn btn-primary">Send Message</button>
-            </form>
+            <form
+            class="contact-form"
+  action="https://formspree.io/f/mrpzyoyv"
+  method="POST"
+>
+  <input
+    type="text"
+    name="name"
+    placeholder="Your Name"
+    required>
+  <input
+    type="email"
+    name="email"
+    placeholder="Your Email"
+    required>
+<input
+    name="message"
+    placeholder="Your Message"
+    rows="5"
+    required>
+<button type="submit">Send Message</button>
+
+</form>
             <div class="social-links">
                 <a href="https://github.com/yohan11102024" aria-label="GitHub" target="_blank">https://github.com/yohan11102024</a>
                 <a href="mailto:pmethod2@gmail.com" aria-label="Email">pmethod2@gmail.com</a>
