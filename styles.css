@@ -1,6 +1,6 @@
 :root {
-    --primary: #667eea;
-    --secondary: #764ba2;
+    --primary: #c84e89;
+    --secondary: #f15f79;
     --accent: #f093fb;
     --dark: #0f0f1e;
     --light: #f5f7fa;
@@ -403,6 +403,7 @@ body {
     width: 100%;
     height: 200px;
     background-size: cover;
+    background: linear-gradient(135deg, var(--primary), var(--secondary));
     background-position: center;
 }
 
