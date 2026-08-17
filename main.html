@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <button id="themeToggle" class="theme-toggle">🌙</button>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Hi, I'm <span class="highlight">Gohan Agustin</span></h1>
+                <p class="subtitle">Computer Science Student</p>
+                <p class="description">Im Learning Web Development</p>
+                <a href="#contact" class="btn btn-primary">Get In Touch</a>
+            </div>
+            <div class="hero-visual">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="profile.png" alt="Gohan Agustin">
+                        </div>
+                        <div class="flip-card-back">
+                            <img src="profile2.png" alt="Gohan Agustin">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm an Aspiring Web Developer with a love for creating intuitive user experiences and solving complex problems through code.</p>
+                    <p>Follow my journey as I explore the exciting world of web development!</p>
+                    <p>When I'm not coding, you can find me exploring new technologies, contributing to open source, or working on personal projects.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat">
+                        <h3>1</h3>
+                        <p>Projects</p>
+                    </div>
+                    <div class="stat">
+                        <h3>0.5</h3>
+                        <p>Years Exp.</p>
+                    </div>
+                    <div class="stat">
+                        <h3>2</h3>
+                        <p>Technologies</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);"></div>
+                    <h3>Portfolio</h3>
+                    <p>this is my first project i use html, css, and javascript</p>
+                    <div class="project-tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JavaScript</span>
+                    </div>
+                    <a href="#" class="project-link">View Project →</a>
+                </div>
+
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <ul>
+                        <li>HTML5 & CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <ul>
+                        <li>Node.js</li>
+                        <li>Python</li>
+                        <li>REST APIs</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Others</h3>
+                    <ul>
+                        <li>GitHub</li>
+                        <li>VS Code</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Let's Connect</h2>
+            <p class="contact-subtitle">Have a project in mind? Let's talk!</p>
+            <form class="contact-form" id="contactForm">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+            <div class="social-links">
+                <a href="https://github.com/yohan11102024" aria-label="GitHub" target="_blank">https://github.com/yohan11102024</a>
+                <a href="mailto:pmethod2@gmail.com" aria-label="Email">pmethod2@gmail.com</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 Yohan. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
